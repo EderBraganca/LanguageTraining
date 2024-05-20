@@ -7,6 +7,7 @@ export const Easy = () => {
     const [englishPhrase, setEnglishPhrase] = useState('');
     const [hidePortuguese, setHidePortuguese] = useState(true);
     const [hideEnglish, setHideEnglish] = useState(true);
+    const [velocity, setVelocity] = useState(0.8);
 
     const dbRef = ref(db);
     
@@ -25,7 +26,6 @@ export const Easy = () => {
         });
     }
 
-
     const phraseToSpeech = () => {
         const speech = new SpeechSynthesisUtterance();
         speech.lang = 'en-US';
@@ -34,24 +34,32 @@ export const Easy = () => {
         window.speechSynthesis.speak(speech);
     }
     
-    
+    const increaseVelocity = () => {
+        setVelocity(velocity + 0.1);
+    }
+
+    const decreaseVelocity = () => {
+        setVelocity(velocity - 0.1);
+    }
     
     return ( <>
         <h1>Easy</h1>
-        <p>Click in this button below to generate a random phrase in English:  
-            <input type="submit" onClick={getRandomPhrase}/>
+        <p>Click in this button to generate a random phrase in English:  
+            <button onClick={getRandomPhrase}>Generate</button>
         </p>
         
         <textarea rows={4} cols={50} placeholder="Type what you are hearing..."></textarea><br/>
-        <input type="submit" value="Play" onClick={phraseToSpeech} hidden={!englishPhrase}/>
-        
+        <section>
+            <button onClick={decreaseVelocity} hidden={!englishPhrase}>- Fast</button>
+            <button onClick={increaseVelocity} hidden={!englishPhrase}>+ Fast</button>
+            <p hidden={!englishPhrase}>Velocity: {velocity}</p>
+            <button onClick={phraseToSpeech} hidden={!englishPhrase}>Play</button>
+        </section>
         <br/>
         <p>
             <label>Portuguese phrase: </label>
             {!hidePortuguese && <p>{portuguesePhrase}</p>}
-            <input
-                type="submit"
-                value="Show"
+            <button
                 onClick={() => {
                     if (!hidePortuguese) {
                         setHidePortuguese(true);
@@ -59,14 +67,13 @@ export const Easy = () => {
                         setHidePortuguese(false);
                     }
                 }}
-            />
+            >Show</button>
         </p>
         <p>
             <label>English phrase: </label>
             {!hideEnglish && <p>{englishPhrase}</p>}
-            <input
+            <button
                 type="submit"
-                value="Show"
                 onClick={() => {
                     if (!hideEnglish) {
                         setHideEnglish(true);
@@ -74,7 +81,7 @@ export const Easy = () => {
                         setHideEnglish(false);
                     }
                 }}
-            />
+            >Show</button>
         </p>
     </>);
 }

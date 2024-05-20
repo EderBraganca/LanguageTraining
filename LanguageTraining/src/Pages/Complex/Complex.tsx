@@ -7,6 +7,7 @@ export const Complex = () => {
     const [englishPhrase, setEnglishPhrase] = useState('');
     const [hidePortuguese, setHidePortuguese] = useState(true);
     const [hideEnglish, setHideEnglish] = useState(true);
+    const [velocity, setVelocity] = useState(0.8);
 
     const dbRef = ref(db);
     
@@ -30,28 +31,36 @@ export const Complex = () => {
         const speech = new SpeechSynthesisUtterance();
         speech.lang = 'en-US';
         speech.text = englishPhrase;
-        speech.rate = 0.6;
+        speech.rate = velocity;
         window.speechSynthesis.speak(speech);
     }
     
-    
+    const increaseVelocity = () => {
+        setVelocity(velocity + 0.1);
+    }
+
+    const decreaseVelocity = () => {
+        setVelocity(velocity - 0.1);
+    }
     
     return ( <>
         <h1>Complex</h1>
-        <p>Click in this button below to generate a random phrase in English:  
-            <input type="submit" onClick={getRandomPhrase}/>
-        </p>
+        <h3>Click in this button to generate a random phrase in English:  
+            <button onClick={getRandomPhrase}>Generate</button>
+        </h3>
         
         <textarea rows={4} cols={50} placeholder="Type what you are hearing..."></textarea><br/>
-        <input type="submit" value="Play" onClick={phraseToSpeech} hidden={!englishPhrase}/>
-        
+        <section>
+            <button onClick={decreaseVelocity} hidden={!englishPhrase}>- Fast</button>
+            <button onClick={increaseVelocity} hidden={!englishPhrase}>+ Fast</button>
+            <p hidden={!englishPhrase}>Velocity: {velocity}</p>
+            <button onClick={phraseToSpeech} hidden={!englishPhrase}>Play</button>
+        </section>
         <br/>
         <p>
             <label>Portuguese phrase: </label>
             {!hidePortuguese && <p>{portuguesePhrase}</p>}
-            <input
-                type="submit"
-                value="Show"
+            <button
                 onClick={() => {
                     if (!hidePortuguese) {
                         setHidePortuguese(true);
@@ -59,14 +68,12 @@ export const Complex = () => {
                         setHidePortuguese(false);
                     }
                 }}
-            />
+            >Show</button>
         </p>
         <p>
             <label>English phrase: </label>
             {!hideEnglish && <p>{englishPhrase}</p>}
-            <input
-                type="submit"
-                value="Show"
+            <button
                 onClick={() => {
                     if (!hideEnglish) {
                         setHideEnglish(true);
@@ -74,7 +81,7 @@ export const Complex = () => {
                         setHideEnglish(false);
                     }
                 }}
-            />
+            >Show</button>
         </p>
     </>);
 }

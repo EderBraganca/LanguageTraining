@@ -1,0 +1,12 @@
+.levelsSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.levelsButtons{
+    padding: 1vh;
+    width: 100%;
+    margin: 1vh;
+}
