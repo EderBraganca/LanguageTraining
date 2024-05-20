@@ -1,10 +1,16 @@
 import './Footer.css';
 
 export const Footer = () => {
+    const alertEmail = () => {
+        navigator.clipboard.writeText('ederbrape@gmail.scom')
+
+        alert('Email copiado com sucesso!');
+    }
     return (
         <footer className="footer">
             <section className="footerSection">
                 <a href="/about">About</a>
+                <a href="/" onClick={alertEmail}>Do you need help? Send me an email</a>
             </section>
         </footer>
     )

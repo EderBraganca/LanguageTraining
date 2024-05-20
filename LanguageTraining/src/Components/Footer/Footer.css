@@ -5,3 +5,7 @@
     height: 5vh;
     width: 100%;
 }
+.footerSection{
+    display: flex;
+    justify-content: space-evenly;
+}
