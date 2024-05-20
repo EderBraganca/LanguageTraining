@@ -1,6 +1,7 @@
 import { ref, get, child } from "firebase/database";
 import { db } from "../../App";
 import { useState } from "react";
+import { Footer }from '../../Components/Footer/Footer';
  
 export const Complex = () => {
     const [portuguesePhrase, setPortuguesePhrase] = useState(''); 
@@ -83,6 +84,7 @@ export const Complex = () => {
                 }}
             >Show</button>
         </p>
+        <Footer />
     </>);
 }
     
