@@ -1,0 +1,610 @@
+{
+  "translations": {
+    "Complex": {
+      "1": {
+        "english_phrase": "Although it was raining, we decided to go for a walk because we had been inside all day",
+        "portuguese_translation": "Embora estivesse chovendo, decidimos dar um passeio porque estivemos dentro de casa o dia todo"
+      },
+      "2": {
+        "english_phrase": "I could not finish the project on time because the computer crashed, and I lost all my work",
+        "portuguese_translation": "Não consegui terminar o projeto a tempo porque o computador travou e perdi todo o meu trabalho"
+      },
+      "3": {
+        "english_phrase": "She wanted to go to the concert, but she could not because she had an important exam the next day",
+        "portuguese_translation": "Ela queria ir ao concerto, mas não podia porque tinha um exame importante no dia seguinte"
+      },
+      "4": {
+        "english_phrase": "Even though he was tired, he stayed up late to help his friend who was struggling with a problem",
+        "portuguese_translation": "Embora estivesse cansado, ele ficou acordado até tarde para ajudar seu amigo que estava com um problema"
+      },
+      "5": {
+        "english_phrase": "They planned to visit the museum, but it was closed for renovations, so they went to the park instead",
+        "portuguese_translation": "Eles planejaram visitar o museu, mas estava fechado para reformas, então foram ao parque em vez disso"
+      },
+      "6": {
+        "english_phrase": "If you study hard and practice regularly, you will improve your skills and achieve your goals",
+        "portuguese_translation": "Se você estudar muito e praticar regularmente, melhorará suas habilidades e atingirá seus objetivos"
+      },
+      "7": {
+        "english_phrase": "Despite the fact that the team worked very hard, they did not win the championship due to a last-minute goal",
+        "portuguese_translation": "Apesar do fato de que a equipe trabalhou muito, eles não ganharam o campeonato devido a um gol de última hora"
+      },
+      "8": {
+        "english_phrase": "I wanted to bake a cake for the party, but I realized I was out of flour, so I had to go to the store",
+        "portuguese_translation": "Eu queria fazer um bolo para a festa, mas percebi que estava sem farinha, então tive que ir à loja"
+      },
+      "9": {
+        "english_phrase": "Although the book was long and difficult to read, it was very rewarding and provided a lot of valuable insights",
+        "portuguese_translation": "Embora o livro fosse longo e difícil de ler, foi muito gratificante e proporcionou muitos insights valiosos"
+      },
+      "10": {
+        "english_phrase": "She wanted to join the team, but she was too young, so she decided to wait until next year",
+        "portuguese_translation": "Ela queria entrar no time, mas era muito jovem, então decidiu esperar até o próximo ano"
+      },
+      "11": {
+        "english_phrase": "If you save your money and invest wisely, you can build a secure future and retire comfortably",
+        "portuguese_translation": "Se você economizar seu dinheiro e investir com sabedoria, pode construir um futuro seguro e se aposentar confortavelmente"
+      },
+      "12": {
+        "english_phrase": "He tried to fix the car himself, but he did not have the right tools, so he had to call a mechanic",
+        "portuguese_translation": "Ele tentou consertar o carro sozinho, mas não tinha as ferramentas certas, então teve que chamar um mecânico"
+      },
+      "13": {
+        "english_phrase": "Even if it seems difficult at first, keep practicing, and you will eventually master it",
+        "portuguese_translation": "Mesmo que pareça difícil no começo, continue praticando e você acabará dominando"
+      },
+      "14": {
+        "english_phrase": "They were excited about their vacation, but their flight was delayed, and they had to wait at the airport for hours",
+        "portuguese_translation": "Eles estavam animados com as férias, mas o voo foi atrasado e tiveram que esperar no aeroporto por horas"
+      },
+      "15": {
+        "english_phrase": "Although she had never tried it before, she decided to give skydiving a chance, and she ended up loving it",
+        "portuguese_translation": "Embora nunca tivesse tentado antes, ela decidiu dar uma chance ao paraquedismo e acabou adorando"
+      },
+      "16": {
+        "english_phrase": "If you plan ahead and manage your time effectively, you can accomplish more and reduce stress",
+        "portuguese_translation": "Se você planejar com antecedência e gerenciar seu tempo de forma eficaz, poderá realizar mais e reduzir o estresse"
+      },
+      "17": {
+        "english_phrase": "He wanted to travel the world, but he did not have enough money, so he started saving diligently",
+        "portuguese_translation": "Ele queria viajar pelo mundo, mas não tinha dinheiro suficiente, então começou a economizar diligentemente"
+      },
+      "18": {
+        "english_phrase": "Despite the weather being extremely hot, they decided to go hiking because they had been looking forward to it for weeks",
+        "portuguese_translation": "Apesar do clima estar extremamente quente, eles decidiram fazer uma caminhada porque estavam ansiosos por isso há semanas"
+      },
+      "19": {
+        "english_phrase": "She planned to surprise her friend with a gift, but she forgot it at home, so she had to come up with a new plan",
+        "portuguese_translation": "Ela planejou surpreender sua amiga com um presente, mas esqueceu em casa, então teve que bolar um novo plano"
+      },
+      "20": {
+        "english_phrase": "Although the task seemed impossible at first, with teamwork and perseverance, they were able to complete it successfully",
+        "portuguese_translation": "Embora a tarefa parecesse impossível no começo, com trabalho em equipe e perseverança, conseguiram completá-la com sucesso"
+      },
+      "21": {
+        "english_phrase": "Even though he was nervous about the presentation, he prepared thoroughly and delivered it confidently",
+        "portuguese_translation": "Embora estivesse nervoso com a apresentação, ele se preparou minuciosamente e a entregou com confiança"
+      },
+      "22": {
+        "english_phrase": "They wanted to go to the beach, but the weather forecast predicted rain, so they decided to go to the movies instead",
+        "portuguese_translation": "Eles queriam ir à praia, mas a previsão do tempo previa chuva, então decidiram ir ao cinema em vez disso"
+      },
+      "23": {
+        "english_phrase": "If you eat healthy food and exercise regularly, you will improve your overall well-being and feel more energetic",
+        "portuguese_translation": "Se você comer alimentos saudáveis e se exercitar regularmente, melhorará seu bem-estar geral e se sentirá mais energético"
+      },
+      "24": {
+        "english_phrase": "He wanted to fix the roof before the storm hit, but he could not find the necessary materials in time",
+        "portuguese_translation": "Ele queria consertar o telhado antes da tempestade, mas não conseguiu encontrar os materiais necessários a tempo"
+      },
+      "25": {
+        "english_phrase": "Despite the project's complexity, they managed to finish it ahead of schedule and under budget",
+        "portuguese_translation": "Apesar da complexidade do projeto, eles conseguiram terminá-lo antes do prazo e abaixo do orçamento"
+      },
+      "26": {
+        "english_phrase": "Although she was offered a higher paying job, she decided to stay with her current employer because she valued the work-life balance",
+        "portuguese_translation": "Embora lhe oferecessem um emprego com salário mais alto, ela decidiu ficar com seu empregador atual porque valorizava o equilíbrio entre trabalho e vida pessoal"
+      },
+      "27": {
+        "english_phrase": "Even if you make a mistake, it is important to learn from it and keep moving forward",
+        "portuguese_translation": "Mesmo que você cometa um erro, é importante aprender com ele e continuar em frente"
+      },
+      "28": {
+        "english_phrase": "They planned to host a barbecue, but the grill broke, so they had to cook the food in the oven instead",
+        "portuguese_translation": "Eles planejaram fazer um churrasco, mas a grelha quebrou, então tiveram que cozinhar a comida no forno"
+      },
+      "29": {
+        "english_phrase": "Although the movie received mixed reviews, we decided to watch it and form our own opinion",
+        "portuguese_translation": "Embora o filme tenha recebido críticas mistas, decidimos assisti-lo e formar nossa própria opinião"
+      },
+      "30": {
+        "english_phrase": "If you work hard and stay focused, you can achieve your dreams and make a difference in the world",
+        "portuguese_translation": "Se você trabalhar duro e manter o foco, pode realizar seus sonhos e fazer a diferença no mundo"
+      },
+      "31": {
+        "english_phrase": "She wanted to buy a new car, but she decided to wait for a better deal, and she ended up saving a lot of money",
+        "portuguese_translation": "Ela queria comprar um carro novo, mas decidiu esperar por um negócio melhor e acabou economizando muito dinheiro"
+      },
+      "32": {
+        "english_phrase": "Despite the delay, the team remained optimistic and continued to work towards their goal",
+        "portuguese_translation": "Apesar do atraso, a equipe permaneceu otimista e continuou a trabalhar em direção ao seu objetivo"
+      },
+      "33": {
+        "english_phrase": "Although the recipe was complicated, she followed it step by step and the dish turned out perfectly",
+        "portuguese_translation": "Embora a receita fosse complicada, ela seguiu passo a passo e o prato ficou perfeito"
+      },
+      "34": {
+        "english_phrase": "Even though he was not feeling well, he went to the meeting because it was very important",
+        "portuguese_translation": "Mesmo não se sentindo bem, ele foi à reunião porque era muito importante"
+      },
+      "35": {
+        "english_phrase": "They wanted to renovate their house, but the cost was too high, so they postponed it until next year",
+        "portuguese_translation": "Eles queriam renovar a casa, mas o custo era muito alto, então adiaram para o próximo ano"
+      },
+      "36": {
+        "english_phrase": "If you treat people with kindness and respect, you will build strong and positive relationships",
+        "portuguese_translation": "Se você tratar as pessoas com bondade e respeito, construirá relacionamentos fortes e positivos"
+      },
+      "37": {
+        "english_phrase": "He tried to solve the problem himself, but it was too complex, so he asked for help from an expert",
+        "portuguese_translation": "Ele tentou resolver o problema sozinho, mas era muito complexo, então pediu ajuda a um especialista"
+      },
+      "38": {
+        "english_phrase": "Despite the noise, she managed to concentrate and finish her work on time",
+        "portuguese_translation": "Apesar do barulho, ela conseguiu se concentrar e terminar seu trabalho a tempo"
+      },
+      "39": {
+        "english_phrase": "Although the journey was long and tiring, it was worth it because the destination was beautiful",
+        "portuguese_translation": "Embora a viagem tenha sido longa e cansativa, valeu a pena porque o destino era lindo"
+      },
+      "40": {
+        "english_phrase": "Even if the challenge seems insurmountable, never give up and keep pushing forward",
+        "portuguese_translation": "Mesmo que o desafio pareça intransponível, nunca desista e continue em frente"
+      },
+      "41": {
+        "english_phrase": "They planned a picnic, but the weather was bad, so they had a picnic indoors instead",
+        "portuguese_translation": "Eles planejaram um piquenique, mas o tempo estava ruim, então fizeram um piquenique dentro de casa"
+      },
+      "42": {
+        "english_phrase": "Although he was skeptical at first, he tried the new method and found it to be very effective",
+        "portuguese_translation": "Embora estivesse cético no começo, ele tentou o novo método e achou muito eficaz"
+      },
+      "43": {
+        "english_phrase": "If you always do your best, you can be proud of your achievements no matter the outcome",
+        "portuguese_translation": "Se você sempre der o seu melhor, pode se orgulhar de suas realizações, não importa o resultado"
+      },
+      "44": {
+        "english_phrase": "She wanted to travel abroad, but she needed to renew her passport first, so she went to the embassy",
+        "portuguese_translation": "Ela queria viajar para o exterior, mas precisava renovar o passaporte primeiro, então foi à embaixada"
+      },
+      "45": {
+        "english_phrase": "Despite the difficult circumstances, they stayed positive and found a way to overcome the obstacles",
+        "portuguese_translation": "Apesar das circunstâncias difíceis, eles permaneceram positivos e encontraram uma maneira de superar os obstáculos"
+      },
+      "46": {
+        "english_phrase": "Although he had many responsibilities, he always made time for his family and friends",
+        "portuguese_translation": "Embora tivesse muitas responsabilidades, ele sempre arranjava tempo para sua família e amigos"
+      },
+      "47": {
+        "english_phrase": "Even if you do not see immediate results, keep working hard and eventually, you will succeed",
+        "portuguese_translation": "Mesmo que você não veja resultados imediatos, continue trabalhando duro e, eventualmente, terá sucesso"
+      },
+      "48": {
+        "english_phrase": "They planned a big celebration, but many guests could not attend, so they decided to have a smaller gathering",
+        "portuguese_translation": "Eles planejaram uma grande celebração, mas muitos convidados não puderam comparecer, então decidiram fazer uma reunião menor"
+      },
+      "49": {
+        "english_phrase": "Although the task was challenging, they did not give up and finally completed it successfully",
+        "portuguese_translation": "Embora a tarefa fosse desafiadora, eles não desistiram e finalmente a completaram com sucesso"
+      },
+      "50": {
+        "english_phrase": "Even though the conditions were harsh, the team persevered and achieved their objectives",
+        "portuguese_translation": "Embora as condições fossem adversas, a equipe perseverou e atingiu seus objetivos"
+      }
+    },
+    "Hard": {
+      "1": {
+        "english_phrase": "The early bird catches the worm",
+        "portuguese_translation": "Deus ajuda quem cedo madruga"
+      },
+      "2": {
+        "english_phrase": "Actions speak louder than words",
+        "portuguese_translation": "Ações falam mais alto que palavras"
+      },
+      "3": {
+        "english_phrase": "A picture is worth a thousand words",
+        "portuguese_translation": "Uma imagem vale mais que mil palavras"
+      },
+      "4": {
+        "english_phrase": "When in Rome, do as the Romans do",
+        "portuguese_translation": "Em Roma, faça como os romanos"
+      },
+      "5": {
+        "english_phrase": "The pen is mightier than the sword",
+        "portuguese_translation": "A caneta é mais poderosa que a espada"
+      },
+      "6": {
+        "english_phrase": "Birds of a feather flock together",
+        "portuguese_translation": "Diga-me com quem andas e te direi quem és"
+      },
+      "7": {
+        "english_phrase": "The grass is always greener on the other side",
+        "portuguese_translation": "A grama do vizinho é sempre mais verde"
+      },
+      "8": {
+        "english_phrase": "Do not count your chickens before they hatch",
+        "portuguese_translation": "Não conte com o ovo no **dentro** da galinha"
+      },
+      "9": {
+        "english_phrase": "Do not put all your eggs in one basket",
+        "portuguese_translation": "Não coloque todos os ovos em uma só cesta"
+      },
+      "10": {
+        "english_phrase": "Every cloud has a silver lining",
+        "portuguese_translation": "Há males que vêm para o bem"
+      },
+      "11": {
+        "english_phrase": "Do not judge a book by its cover",
+        "portuguese_translation": "Não julgue um livro pela capa"
+      },
+      "12": {
+        "english_phrase": "Better late than never",
+        "portuguese_translation": "Antes tarde do que nunca"
+      },
+      "13": {
+        "english_phrase": "A journey of a thousand miles begins with a single step",
+        "portuguese_translation": "Uma jornada de mil milhas começa com um único passo"
+      },
+      "14": {
+        "english_phrase": "Practice makes perfect",
+        "portuguese_translation": "A prática leva à perfeição"
+      },
+      "15": {
+        "english_phrase": "The squeaky wheel gets the grease",
+        "portuguese_translation": "Quem não chora, não mama"
+      },
+      "16": {
+        "english_phrase": "You cannot have your cake and eat it too",
+        "portuguese_translation": "Não se pode ter tudo"
+      },
+      "17": {
+        "english_phrase": "Beggars cannot be choosers",
+        "portuguese_translation": "Quem mendiga, não escolhe"
+      },
+      "18": {
+        "english_phrase": "Beauty is in the eye of the beholder",
+        "portuguese_translation": "A beleza está nos olhos de quem vê"
+      },
+      "19": {
+        "english_phrase": "When the going gets tough, the tough get going",
+        "portuguese_translation": "Quando a situação fica difícil, os fortes continuam"
+      },
+      "20": {
+        "english_phrase": "A rolling stone gathers no moss",
+        "portuguese_translation": "Pedra que rola não cria limo"
+      },
+      "21": {
+        "english_phrase": "You cannot judge a book by its cover",
+        "portuguese_translation": "Não se pode julgar um livro pela capa"
+      },
+      "22": {
+        "english_phrase": "Two heads are better than one",
+        "portuguese_translation": "Duas cabeças pensam melhor do que uma"
+      },
+      "23": {
+        "english_phrase": "The devil is in the details",
+        "portuguese_translation": "O diabo está nos detalhes"
+      },
+      "24": {
+        "english_phrase": "A stitch in time saves nine",
+        "portuguese_translation": "Mais vale um pássaro na mão do que dois voando"
+      },
+      "25": {
+        "english_phrase": "Time is money",
+        "portuguese_translation": "Tempo é dinheiro"
+      },
+      "26": {
+        "english_phrase": "Necessity is the mother of invention",
+        "portuguese_translation": "A necessidade é a mãe da invenção"
+      },
+      "27": {
+        "english_phrase": "The apple does not fall far from the tree",
+        "portuguese_translation": "O fruto não cai longe da árvore"
+      },
+      "28": {
+        "english_phrase": "Strike while the iron is hot",
+        "portuguese_translation": "Bata o ferro enquanto está quente"
+      },
+      "29": {
+        "english_phrase": "Too many cooks spoil the broth",
+        "portuguese_translation": "Cachorro com dois donos morre de fome"
+      },
+      "30": {
+        "english_phrase": "Let sleeping dogs lie",
+        "portuguese_translation": "Não mexa em time que está ganhando"
+      },
+      "31": {
+        "english_phrase": "You cannot make an omelet without breaking eggs",
+        "portuguese_translation": "Não se faz omelete sem quebrar ovos"
+      },
+      "32": {
+        "english_phrase": "No pain, no gain",
+        "portuguese_translation": "Sem esforço não há ganho"
+      },
+      "33": {
+        "english_phrase": "Money does not grow on trees",
+        "portuguese_translation": "Dinheiro não cresce em árvore"
+      },
+      "34": {
+        "english_phrase": "An ounce of prevention is worth a pound of cure",
+        "portuguese_translation": "Melhor prevenir do que remediar"
+      },
+      "35": {
+        "english_phrase": "The best of both worlds",
+        "portuguese_translation": "O melhor de dois mundos"
+      },
+      "36": {
+        "english_phrase": "Burning the midnight oil",
+        "portuguese_translation": "Queimar a vela até o fim"
+      },
+      "37": {
+        "english_phrase": "Every dog has its day",
+        "portuguese_translation": "Todo mundo tem seu dia de sorte"
+      },
+      "38": {
+        "english_phrase": "Do not put all your eggs in one basket",
+        "portuguese_translation": "Não coloque todos os ovos em uma só cesta"
+      },
+      "39": {
+        "english_phrase": "Out of sight, out of mind",
+        "portuguese_translation": "O que os olhos não veem o coração não sente"
+      },
+      "40": {
+        "english_phrase": "Do not bite off more than you can chew",
+        "portuguese_translation": "Não dê um passo maior que a perna"
+      },
+      "41": {
+        "english_phrase": "Bite the bullet",
+        "portuguese_translation": "Engolir sapos"
+      },
+      "42": {
+        "english_phrase": "Break the ice",
+        "portuguese_translation": "Quebrar o gelo"
+      },
+      "43": {
+        "english_phrase": "The ball is in your court",
+        "portuguese_translation": "A bola está no seu campo"
+      },
+      "44": {
+        "english_phrase": "Spill the beans",
+        "portuguese_translation": "Abrir o jogo"
+      },
+      "45": {
+        "english_phrase": "Hit the nail on the head",
+        "portuguese_translation": "Acertar na mosca"
+      },
+      "46": {
+        "english_phrase": "Pulling your leg",
+        "portuguese_translation": "Puxar a perna de alguém"
+      },
+      "47": {
+        "english_phrase": "It is not rocket science",
+        "portuguese_translation": "Não é ciência de foguetes"
+      },
+      "48": {
+        "english_phrase": "The best thing since sliced bread",
+        "portuguese_translation": "A melhor coisa desde a invenção do pão fatiado"
+      },
+      "49": {
+        "english_phrase": "A fool and his money are soon parted",
+        "portuguese_translation": "Dinheiro na mão de tolo"
+      },
+      "50": {
+        "english_phrase": "Every cloud has a silver lining",
+        "portuguese_translation": "Há males que vêm para o bem"
+      }
+    },
+    "Easy": {
+      "1": {
+        "english_phrase": "Good morning",
+        "portuguese_translation": "Bom dia"
+      },
+      "2": {
+        "english_phrase": "Thank you",
+        "portuguese_translation": "Obrigado"
+      },
+      "3": {
+        "english_phrase": "How are you?",
+        "portuguese_translation": "Como você está?"
+      },
+      "4": {
+        "english_phrase": "See you later",
+        "portuguese_translation": "Até logo"
+      },
+      "5": {
+        "english_phrase": "I love you",
+        "portuguese_translation": "Eu te amo"
+      },
+      "6": {
+        "english_phrase": "What is your name?",
+        "portuguese_translation": "Qual é o seu nome?"
+      },
+      "7": {
+        "english_phrase": "Nice to meet you",
+        "portuguese_translation": "Prazer em conhecê-lo"
+      },
+      "8": {
+        "english_phrase": "Where is the bathroom?",
+        "portuguese_translation": "Onde fica o banheiro?"
+      },
+      "9": {
+        "english_phrase": "Can I help you?",
+        "portuguese_translation": "Posso ajudar você?"
+      },
+      "10": {
+        "english_phrase": "Excuse me",
+        "portuguese_translation": "Com licença"
+      },
+      "11": {
+        "english_phrase": "I am sorry",
+        "portuguese_translation": "Desculpe"
+      },
+      "12": {
+        "english_phrase": "How much does it cost?",
+        "portuguese_translation": "Quanto custa?"
+      },
+      "13": {
+        "english_phrase": "Good night",
+        "portuguese_translation": "Boa noite"
+      },
+      "14": {
+        "english_phrase": "I do not understand",
+        "portuguese_translation": "Eu não entendo"
+      },
+      "15": {
+        "english_phrase": "Please speak slowly",
+        "portuguese_translation": "Por favor, fale devagar"
+      },
+      "16": {
+        "english_phrase": "Do you speak English?",
+        "portuguese_translation": "Você fala inglês?"
+      },
+      "17": {
+        "english_phrase": "I need a doctor",
+        "portuguese_translation": "Eu preciso de um médico"
+      },
+      "18": {
+        "english_phrase": "What time is it?",
+        "portuguese_translation": "Que horas são?"
+      },
+      "19": {
+        "english_phrase": "I am lost",
+        "portuguese_translation": "Estou perdido"
+      },
+      "20": {
+        "english_phrase": "Can you repeat that?",
+        "portuguese_translation": "Você pode repetir isso?"
+      },
+      "21": {
+        "english_phrase": "Happy birthday",
+        "portuguese_translation": "Feliz aniversário"
+      },
+      "22": {
+        "english_phrase": "Congratulations",
+        "portuguese_translation": "Parabéns"
+      },
+      "23": {
+        "english_phrase": "Good luck",
+        "portuguese_translation": "Boa sorte"
+      },
+      "24": {
+        "english_phrase": "Welcome",
+        "portuguese_translation": "Bem-vindo"
+      },
+      "25": {
+        "english_phrase": "See you tomorrow",
+        "portuguese_translation": "Até amanhã"
+      },
+      "26": {
+        "english_phrase": "Have a good day",
+        "portuguese_translation": "Tenha um bom dia"
+      },
+      "27": {
+        "english_phrase": "Take care",
+        "portuguese_translation": "Cuide-se"
+      },
+      "28": {
+        "english_phrase": "I am hungry",
+        "portuguese_translation": "Estou com fome"
+      },
+      "29": {
+        "english_phrase": "I am thirsty",
+        "portuguese_translation": "Estou com sede"
+      },
+      "30": {
+        "english_phrase": "Where are you from?",
+        "portuguese_translation": "De onde você é?"
+      },
+      "31": {
+        "english_phrase": "What do you do?",
+        "portuguese_translation": "O que você faz?"
+      },
+      "32": {
+        "english_phrase": "I am tired",
+        "portuguese_translation": "Estou cansado"
+      },
+      "33": {
+        "english_phrase": "I am happy",
+        "portuguese_translation": "Estou feliz"
+      },
+      "34": {
+        "english_phrase": "I am sad",
+        "portuguese_translation": "Estou triste"
+      },
+      "35": {
+        "english_phrase": "It is hot today",
+        "portuguese_translation": "Está quente hoje"
+      },
+      "36": {
+        "english_phrase": "It is cold today",
+        "portuguese_translation": "Está frio hoje"
+      },
+      "37": {
+        "english_phrase": "I need help",
+        "portuguese_translation": "Eu preciso de ajuda"
+      },
+      "38": {
+        "english_phrase": "Can you help me?",
+        "portuguese_translation": "Você pode me ajudar?"
+      },
+      "39": {
+        "english_phrase": "Where is the train station?",
+        "portuguese_translation": "Onde fica a estação de trem?"
+      },
+      "40": {
+        "english_phrase": "Call the police",
+        "portuguese_translation": "Chame a polícia"
+      },
+      "41": {
+        "english_phrase": "I do not know",
+        "portuguese_translation": "Eu não sei"
+      },
+      "42": {
+        "english_phrase": "How do you say...?",
+        "portuguese_translation": "Como se diz...?"
+      },
+      "43": {
+        "english_phrase": "What is this?",
+        "portuguese_translation": "O que é isso?"
+      },
+      "44": {
+        "english_phrase": "Can you show me?",
+        "portuguese_translation": "Você pode me mostrar?"
+      },
+      "45": {
+        "english_phrase": "I like it",
+        "portuguese_translation": "Eu gosto disso"
+      },
+      "46": {
+        "english_phrase": "I do not like it",
+        "portuguese_translation": "Eu não gosto disso"
+      },
+      "47": {
+        "english_phrase": "I am learning Portuguese",
+        "portuguese_translation": "Estou aprendendo português"
+      },
+      "48": {
+        "english_phrase": "Where is the nearest hospital?",
+        "portuguese_translation": "Onde fica o hospital mais próximo?"
+      },
+      "49": {
+        "english_phrase": "I need a taxi",
+        "portuguese_translation": "Eu preciso de um táxi"
+      },
+      "50": {
+        "english_phrase": "Where is the nearest hospital?",
+        "portuguese_translation": "Onde fica o hospital mais próximo?"
+      }
+    }
+  }
+}
