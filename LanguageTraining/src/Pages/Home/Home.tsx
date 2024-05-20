@@ -1,6 +1,12 @@
+import { Footer }from '../../Components/Footer/Footer';
+
 export const Home = () => {
     return ( <>
         <h1>Home</h1>
-        <p>This is the home page</p>
+        <p>Select your Level</p>
+        <button><a href="/easy">Easy</a></button>
+        <button><a href="/hard">Hard</a></button>
+        <button><a href="/complex">Complex</a></button>
+        <Footer />
     </>);
 }
