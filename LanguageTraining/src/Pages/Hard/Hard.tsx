@@ -48,16 +48,17 @@ export const Hard = () => {
 
     return ( <>
         <h1>Hard</h1>
-        <p>Click in this button to generate a random phrase in English:  
-            <button onClick={getRandomPhrase}>Generate</button>
-        </p>
+        <p>Click in this button to generate a random phrase in English: </p>
+        <button onClick={getRandomPhrase} className="generateButton">Generate Phrase</button><br/> 
         
-        <textarea rows={4} cols={50} placeholder="Type what you are hearing..."></textarea><br/>        
-        <section>
-            <button onClick={decreaseVelocity} hidden={!englishPhrase}>- Fast</button>
-            <button onClick={increaseVelocity} hidden={!englishPhrase}>+ Fast</button>
-            <p hidden={!englishPhrase}>Velocity: {velocity.toFixed(1)}</p>
-            <button onClick={phraseToSpeech} hidden={!englishPhrase}>Play</button>
+        <section className="sectionInput">
+            <textarea rows={4} cols={50} placeholder="Type what you are hearing..."/>
+            <nav className="velocityButtons">
+                <button onClick={decreaseVelocity} hidden={!englishPhrase}>-</button>
+                <p hidden={!englishPhrase}>Velocity: {velocity.toFixed(1)}</p>
+                <button onClick={increaseVelocity} hidden={!englishPhrase}>+</button>
+            </nav>
+            <button onClick={phraseToSpeech} hidden={!englishPhrase}>Play Audio</button>
         </section>
         
         <br/>

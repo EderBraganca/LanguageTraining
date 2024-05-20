@@ -6,3 +6,20 @@
   text-align: center;
   height: 100vh;
 }
+
+.generateButton{
+  padding: 1vh;
+  width: 30vw;
+  margin-bottom: 2vh;
+}
+
+.sectionInput{
+  display: flex;
+  flex-direction: column;
+}
+
+.velocityButtons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
