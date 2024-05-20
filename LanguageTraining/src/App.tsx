@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Home } from './Pages/Home/Home'
 import { About } from './Pages/About/About'
 import { Complex } from './Pages/Complex/Complex'
+import { Easy } from './Pages/Easy/Easy'
+import { Hard } from './Pages/Hard/Hard'
 
 import { initializeApp } from "firebase/app"
 import { getDatabase } from 'firebase/database'
@@ -29,6 +31,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/easy" element={<Easy />} />
+        <Route path="/hard" element={<Hard />} />
         <Route path="/complex" element={<Complex />} />
       </Routes>
     </Router>

@@ -2,7 +2,7 @@ import { ref, get, child } from "firebase/database";
 import { db } from "../../App";
 import { useState } from "react";
  
-export const Complex = () => {
+export const Hard = () => {
     const [portuguesePhrase, setPortuguesePhrase] = useState(''); 
     const [englishPhrase, setEnglishPhrase] = useState('');
     const [hidePortuguese, setHidePortuguese] = useState(true);
@@ -13,7 +13,7 @@ export const Complex = () => {
     const getRandomPhrase = () => {
         const id = Math.floor(Math.random() * 50);
 
-        get(child(dbRef, `translations/Complex/${id}`)).then((snapshot) => {
+        get(child(dbRef, `translations/Hard/${id}`)).then((snapshot) => {
             if (snapshot.exists()) {
                 console.log(snapshot.val());
                 setPortuguesePhrase(snapshot.val().portuguese_translation);
@@ -35,9 +35,8 @@ export const Complex = () => {
     }
     
     
-    
     return ( <>
-        <h1>Complex</h1>
+        <h1>Hard</h1>
         <p>Click in this button below to generate a random phrase in English:  
             <input type="submit" onClick={getRandomPhrase}/>
         </p>
