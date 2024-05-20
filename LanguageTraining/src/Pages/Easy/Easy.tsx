@@ -36,12 +36,15 @@ export const Easy = () => {
     }
     
     const increaseVelocity = () => {
-        setVelocity(velocity + 0.1);
+        if (velocity < 3)
+            setVelocity(velocity + 0.1);
     }
 
     const decreaseVelocity = () => {
-        setVelocity(velocity - 0.1);
+        if (velocity > 0.1)
+            setVelocity(velocity - 0.1);
     }
+    
     
     return ( <>
         <h1>Easy</h1>
@@ -53,7 +56,7 @@ export const Easy = () => {
         <section>
             <button onClick={decreaseVelocity} hidden={!englishPhrase}>- Fast</button>
             <button onClick={increaseVelocity} hidden={!englishPhrase}>+ Fast</button>
-            <p hidden={!englishPhrase}>Velocity: {velocity}</p>
+            <p hidden={!englishPhrase}>Velocity: {velocity.toFixed(1)}</p>
             <button onClick={phraseToSpeech} hidden={!englishPhrase}>Play</button>
         </section>
         <br/>

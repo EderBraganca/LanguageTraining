@@ -6,9 +6,9 @@ export const Home = () => {
         <h1>Welcome to English Training</h1>
         <p>Select English level of sentences</p>
         <section className='levelsSection'>
-            <button className='levelsButtons'><a href="/easy">Easy</a></button>
-            <button className='levelsButtons'><a href="/hard">Hard</a></button>
-            <button className='levelsButtons'><a href="/complex">Complex</a></button>
+            <a href="/easy"><button className='levelsButtons'>Easy</button></a>
+            <a href="/hard"><button className='levelsButtons'>Hard</button></a>
+            <a href="/complex"><button className='levelsButtons'>Complex</button></a>
         </section>
         <Footer />
     </>);
