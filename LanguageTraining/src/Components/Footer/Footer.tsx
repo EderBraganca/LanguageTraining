@@ -1,7 +1,7 @@
 import './Footer.css';
 
 export const Footer = () => {
-    const alertEmail = () => {
+    const alertEmail = (): void => {
         navigator.clipboard.writeText('ederbrape@gmail.scom')
 
         alert('Email copiado com sucesso!');
