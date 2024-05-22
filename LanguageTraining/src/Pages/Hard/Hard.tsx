@@ -32,7 +32,7 @@ export const Hard = () => {
         const speech = new SpeechSynthesisUtterance();
         speech.lang = 'en-US';
         speech.text = englishPhrase;
-        speech.rate = 0.6;
+        speech.rate = velocity;
         window.speechSynthesis.speak(speech);
     }
     

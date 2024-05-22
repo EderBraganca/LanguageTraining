@@ -31,7 +31,7 @@ export const Easy = () => {
         const speech = new SpeechSynthesisUtterance();
         speech.lang = 'en-US';
         speech.text = englishPhrase;
-        speech.rate = 0.6;
+        speech.rate = velocity;
         window.speechSynthesis.speak(speech);
     }
     
@@ -50,8 +50,7 @@ export const Easy = () => {
         <h1>Easy</h1>
         <p>Click in this button to generate a random phrase in English: </p>
         <button onClick={getRandomPhrase} className="generateButton">Generate Phrase</button><br/> 
-        
-        <textarea rows={4} cols={50} placeholder="Type what you are hearing..."></textarea><br/>
+
         <section className="sectionInput">
             <textarea rows={4} cols={50} placeholder="Type what you are hearing..."/>
             <nav className="velocityButtons">
