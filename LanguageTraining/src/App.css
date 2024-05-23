@@ -5,14 +5,33 @@
   justify-content: center;
   text-align: center;
   height: 100vh;
+  color: white;
 }
+
 .generateButton{
   padding: 1vh;
   width: 30vw;
-  margin-bottom: 2vh;
 }
 
 .sectionInput{
   display: flex;
   flex-direction: column;
+}
+
+.mainSection{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  word-wrap: break-word;
+  background-color: #242424;
+  height: 80vh;
+  width: 40vw;
+}
+
+.textArea{
+  width: 30vw;
+  height: 5vh;
+  margin: 1vh;
 }

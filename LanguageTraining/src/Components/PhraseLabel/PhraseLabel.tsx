@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import { useState } from 'react';
 import './PhraseLabel.css';
 
 interface PhraseLabelProps {
@@ -7,16 +7,16 @@ interface PhraseLabelProps {
     label: string;
 }
 
-export const PhraseLabel: React.FC<PhraseLabelProps> = ({ phrase, hide, label}) => {
+export const PhraseLabel: React.FC<PhraseLabelProps> = ({ phrase, hide, label }) => {
     const [isHidden, setIsHidden] = useState(hide);
 
     return (
-    <p>
-        <label> {label} </label>
-        {!isHidden && <p>{phrase}</p>}
-        <button onClick={() => setIsHidden(!isHidden)}>
-            Show
-        </button>
-    </p>
+        <p>
+            <label> {label} </label>
+            {!isHidden && <p className='phraseLabel'>{phrase}</p>}
+            <button onClick={() => setIsHidden(!isHidden)}>
+                Show
+            </button>
+        </p>
     );
 }
