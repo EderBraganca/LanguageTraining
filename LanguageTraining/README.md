@@ -34,3 +34,5 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 If you have any questions or suggestions, feel free to reach out to us at ederbrape@gmail.com.
 
 ![image](https://github.com/EderBraganca/LanguageTraining/assets/88894912/807aa181-8c27-4ae3-85c9-35aeab082c6a)
+![image](https://github.com/EderBraganca/LanguageTraining/assets/88894912/d6093e1b-66c0-4413-8267-9de84acbf0e4)
+![image](https://github.com/EderBraganca/LanguageTraining/assets/88894912/3053a457-104f-4dcb-9e0c-5750fbd6e952)
