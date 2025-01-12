@@ -8,10 +8,13 @@ interface PhraseLabelProps {
 }
 
 export const PhraseLabel: React.FC<PhraseLabelProps> = ({ phrase, isHidden, setIsHidden, label }) => {
+    const symbols = ['!', '@', '#', '$', '%', '^', '&', '*', '(', ')', '-', '_', '+', '=', '{', '}', '[', ']', '|', '\\', ':', ';', '"', "'", '<', '>', ',', '.', '?', '/', ' '];
     const encriptedPhrase = phrase.split('').map(
         lether => { 
-        if (lether === ' ') return ' ';
-            return '*';    
+        if (symbols.includes(lether)) {
+            return lether;
+        }
+        return '*';    
     }).join('');
 
     return (
