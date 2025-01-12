@@ -14,7 +14,7 @@ export const PhraseLabel: React.FC<PhraseLabelProps> = ({ phrase, hide, label })
         <p>
             <label> {label} </label>
             {!isHidden && <p className='phraseLabel'>{phrase}</p>}
-            <button onClick={() => setIsHidden(!isHidden)}>
+            <button onClick={() => setIsHidden(!isHidden)} disabled={!phrase}>
                 Show
             </button>
         </p>
