@@ -5,6 +5,8 @@ import { Footer } from '../../Components/Footer/Footer';
 import { Menu } from "../../Components/Menu/Menu";
 import { AudioControls } from "../../Components/AudioControls/AudioControls";
 import { PhraseLabel } from "../../Components/PhraseLabel/PhraseLabel";
+import { TextInput } from "../../Components/TextInput/TextInput";
+import { clearInput } from "../../Components/Utils/Utils";
 
 export const Hard = () => {
     const [portuguesePhrase, setPortuguesePhrase] = useState('');
@@ -17,14 +19,15 @@ export const Hard = () => {
 
         get(child(dbRef, `translations/Hard/${id}`)).then((snapshot) => {
             if (snapshot.exists()) {
-                console.log(snapshot.val());
                 setPortuguesePhrase(snapshot.val().portuguese_translation);
                 setEnglishPhrase(snapshot.val().english_phrase);
-                console.log("No data available");
             }
+            else { throw new Error("No data available"); }
         }).catch((error) => {
             console.error(error);
         });
+
+        clearInput();
     }
 
     return (<>
@@ -36,10 +39,9 @@ export const Hard = () => {
 
             <section className="sectionInput">
                 <AudioControls phrase={englishPhrase} hide={!englishPhrase} />
-                <textarea className="textArea" placeholder="Type what you are hearing..." />
+                <TextInput />
             </section>
-
-
+            <br />
             <PhraseLabel phrase={englishPhrase} hide={true} label="English phrase" />
             <PhraseLabel phrase={portuguesePhrase} hide={true} label="Portuguese phrase" />
         </section>
