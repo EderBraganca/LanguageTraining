@@ -1,19 +1,25 @@
-import { useState } from 'react';
 import './PhraseLabel.css';
 
 interface PhraseLabelProps {
     phrase: string;
-    hide: boolean;
+    isHidden: boolean;
     label: string;
+    setIsHidden: Function;
 }
 
-export const PhraseLabel: React.FC<PhraseLabelProps> = ({ phrase, hide, label }) => {
-    const [isHidden, setIsHidden] = useState(hide);
+export const PhraseLabel: React.FC<PhraseLabelProps> = ({ phrase, isHidden, setIsHidden, label }) => {
+    const encriptedPhrase = phrase.split('').map(
+        lether => { 
+        if (lether === ' ') return ' ';
+            return '*';    
+    }).join('');
 
     return (
         <p>
             <label> {label} </label>
-            {!isHidden && <p className='phraseLabel'>{phrase}</p>}
+            <p className='phraseLabel'>{
+                (isHidden) ? encriptedPhrase : phrase
+            }</p>
             <button onClick={() => setIsHidden(!isHidden)} disabled={!phrase}>
                 Show
             </button>
