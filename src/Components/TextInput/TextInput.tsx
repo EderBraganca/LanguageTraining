@@ -13,7 +13,7 @@ export const TextInput: React.FC<TextInputProps> = ({
             className="textArea" 
             placeholder="Type what you are hearing..."
             value={inputText}
-            onChange={(e) => setInputText(e.target.value)}
-            />
+            onChange={(e) => setInputText(e.target.value)}    
+        />
     );
 }

@@ -4,8 +4,7 @@ import './Home.css';
 export const Home = () => {
     return (<>
         <section className='mainSection'>
-            <h2>Welcome to </h2>
-            <h1>English Training</h1>
+            <img src='Last.png' alt="Logo" className='logo' />
             <p>Select English level of sentences</p>
             <section className='levelsSection'>
                 <a href="/easy"><button className='levelsButtons'>Easy</button></a>
