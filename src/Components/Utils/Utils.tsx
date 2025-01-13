@@ -1,6 +1,7 @@
 import { get, child } from 'firebase/database';
+import stringSimilarity from "string-similarity";
 
-export { clearInput , getRandomPhrase };
+export { clearInput , getRandomPhrase, checkSimilarity };
 
 const clearInput = () => {
     const textArea = document.querySelector('.textArea') as HTMLTextAreaElement;
@@ -24,4 +25,12 @@ const getRandomPhrase = ({dificulty, setPortuguesePhrase, setEnglishPhrase, dbRe
     });
 
     clearInput();
+}
+
+const checkSimilarity = (phrase1: string, phrase2: string) => {
+    const similarity = stringSimilarity.compareTwoStrings(
+        phrase1.toLowerCase(),
+        phrase2.toLowerCase()
+    );
+    return similarity; 
 }

@@ -1,3 +1,9 @@
 .phraseLabel{
     margin: 0 2vw 0 2vw;
 }
+
+.phraseShowButton{
+    padding: 1vh;
+    width: 30vw;
+    margin: 1vh;
+}

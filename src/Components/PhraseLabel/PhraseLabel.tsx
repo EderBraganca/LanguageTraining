@@ -17,15 +17,13 @@ export const PhraseLabel: React.FC<PhraseLabelProps> = ({ phrase, isHidden, setI
         return '*';    
     }).join('');
 
-    return (
-        <p>
+    return (<>
             <label> {label} </label>
             <p className='phraseLabel'>{
                 (isHidden) ? encriptedPhrase : phrase
             }</p>
-            <button onClick={() => setIsHidden(!isHidden)} disabled={!phrase}>
+            <button className="phraseShowButton" onClick={() => setIsHidden(!isHidden)} disabled={!phrase}>
                 Show
             </button>
-        </p>
-    );
+    </>);
 }
