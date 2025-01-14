@@ -5,17 +5,14 @@
   justify-content: center;
   text-align: center;
   height: 100vh;
-  color: white;
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family:'Brush Script MT', cursive;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  background-color: #242424;
   background-image: url("../blueBackground3.png");
   background-repeat: repeat;
 
-  
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -31,7 +28,7 @@
   display: flex;
   flex-direction: column;
 }
-/* 242424 */
+
 .mainSection{
   display: flex;
   flex-direction: column;
@@ -39,12 +36,13 @@
   justify-content: center;
   align-items: center;
   overflow-y: auto;
-  background-color: #242424;
+  background-color: #f8fdff;
   height: 80vh;
   width: 40vw;
-  opacity: 90%;
+  opacity: 95%;
   min-width: 300px;
   border-radius: 3%; 
+  color: #242424;
 }
 
 .textArea{
@@ -53,15 +51,6 @@
   margin: 1vh;
   align-self: center;
   resize: none;
-}
-
-a {
-  font-weight: 500;
-  color: #FFFFFF;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
 }
 
 h1 {
@@ -75,13 +64,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: #6ACFF3;
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  background-color: #646cff;
-  border-color: #646cff;
+  background-color: #548DDB;
 }
 button:focus,
 button:focus-visible {
