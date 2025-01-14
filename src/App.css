@@ -7,7 +7,7 @@
   height: 100vh;
   font-family:'Brush Script MT', cursive;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: bold;
 
   color-scheme: light dark;
   background-image: url("../blueBackground3.png");
@@ -48,9 +48,12 @@
 .textArea{
   width: 30vw;
   height: 5vh;
-  margin: 1vh;
+  margin: 2vh;
   align-self: center;
   resize: none;
+  background-color: #6ACFF3;
+  border-color: #6ACFF3;
+  border-radius: 8px;
 }
 
 h1 {
@@ -62,14 +65,16 @@ button {
   border-radius: 8px;
   border: 1px solid transparent;
   font-size: 1em;
-  font-weight: 500;
+  font-weight: bold;
   font-family: inherit;
   background-color: #6ACFF3;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: border-color 0.25s;  
+  color: #242424;
 }
 button:hover {
   background-color: #548DDB;
+  color: #f8fdff;
 }
 button:focus,
 button:focus-visible {

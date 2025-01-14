@@ -31,12 +31,9 @@ export const Complex = () => {
                 setInputText('');
             }} className="generateButton">Generate Phrase</button><br />
 
-            <section className="sectionInput">
-                <AudioControls phrase={englishPhrase} hide={!englishPhrase} />
-                <TextInput inputText={inputText} setInputText={setInputText} />
-            </section>
+            <AudioControls phrase={englishPhrase} hide={!englishPhrase} />
+            <TextInput inputText={inputText} setInputText={setInputText} />
             <CheckButton englishPhrase={englishPhrase} inputText={inputText} />
-
             <PhraseLabel phrase={englishPhrase} isHidden={isHiddenEn} setIsHidden={setIsHiddenEn} label="English phrase" />
             <PhraseLabel phrase={portuguesePhrase} isHidden={isHiddenPt} setIsHidden={setIsHiddenPt} label="Portuguese phrase" />
         </section>

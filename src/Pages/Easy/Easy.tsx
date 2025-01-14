@@ -24,18 +24,15 @@ export const Easy = () => {
             <h1>Easy</h1>
             <p>Click in this button to generate a random phrase in English: </p>
             <button onClick={
-                () => { 
-                    getRandomPhrase({ dificulty: 'Easy', setPortuguesePhrase, setEnglishPhrase, dbRef }); 
+                () => {
+                    getRandomPhrase({ dificulty: 'Easy', setPortuguesePhrase, setEnglishPhrase, dbRef });
                     setIsHiddenPt(true);
                     setIsHiddenEn(true);
                     setInputText('');
-            }
+                }
             } className="generateButton">Generate Phrase</button><br />
-
-            <section className="sectionInput">
-                <AudioControls phrase={englishPhrase} hide={!englishPhrase} />
-                <TextInput setInputText={setInputText} inputText={inputText}/>
-            </section>
+            <AudioControls phrase={englishPhrase} hide={!englishPhrase} />
+            <TextInput setInputText={setInputText} inputText={inputText} />
             <CheckButton englishPhrase={englishPhrase} inputText={inputText} />
             <PhraseLabel phrase={englishPhrase} isHidden={isHiddenEn} setIsHidden={setIsHiddenEn} label="English phrase" />
             <PhraseLabel phrase={portuguesePhrase} isHidden={isHiddenPt} setIsHidden={setIsHiddenPt} label="Portuguese phrase" />
